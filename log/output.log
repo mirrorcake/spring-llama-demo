@@ -1,0 +1,32 @@
+22:13:07.703 [main] INFO  c.m.o.SpringOllamaDemoApplication - Starting SpringOllamaDemoApplication using Java 17.0.2 with PID 52113 (/Users/shouko/Projects/java/spring-llama-demo/target/classes started by shouko in /Users/shouko/Projects/java/spring-llama-demo)
+22:13:07.705 [main] INFO  c.m.o.SpringOllamaDemoApplication - No active profile set, falling back to 1 default profile: "default"
+22:13:08.317 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+22:13:08.324 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+22:13:08.325 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+22:13:08.326 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.26]
+22:13:08.363 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+22:13:08.363 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 634 ms
+22:13:08.929 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+22:13:08.937 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+22:13:08.947 [main] INFO  c.m.o.SpringOllamaDemoApplication - Started SpringOllamaDemoApplication in 1.455 seconds (process running for 2.114)
+22:14:41.467 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+22:14:41.467 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+22:14:41.468 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+22:14:50.783 [http-nio-8080-exec-2] WARN  o.s.ai.ollama.api.OllamaApi - [404] Not Found - {"error":"model \"llama3\" not found, try pulling it first"}
+22:14:50.784 [http-nio-8080-exec-2] INFO  c.m.ollama.service.OllamaAiService - Generated 132 ms
+22:15:13.449 [main] INFO  c.m.o.SpringOllamaDemoApplication - Starting SpringOllamaDemoApplication using Java 17.0.2 with PID 52162 (/Users/shouko/Projects/java/spring-llama-demo/target/classes started by shouko in /Users/shouko/Projects/java/spring-llama-demo)
+22:15:13.451 [main] INFO  c.m.o.SpringOllamaDemoApplication - No active profile set, falling back to 1 default profile: "default"
+22:15:14.058 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+22:15:14.064 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+22:15:14.065 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+22:15:14.065 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.26]
+22:15:14.100 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+22:15:14.100 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 619 ms
+22:15:14.674 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+22:15:14.682 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+22:15:14.692 [main] INFO  c.m.o.SpringOllamaDemoApplication - Started SpringOllamaDemoApplication in 1.442 seconds (process running for 2.134)
+22:15:17.123 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+22:15:17.123 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+22:15:17.124 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+22:15:25.001 [http-nio-8080-exec-1] INFO  c.m.ollama.service.OllamaAiService - Generated 7845 ms
+22:15:40.021 [http-nio-8080-exec-2] INFO  c.m.ollama.service.OllamaAiService - Generated 1136 ms
